@@ -23,6 +23,7 @@
       cmd = new rsync()
         .shell('ssh')
         .flags('avuz')
+        .delete()
         .source(source)
         .destination(args[1]),
       handle;
