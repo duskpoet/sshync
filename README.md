@@ -26,3 +26,9 @@ $ sshync <source> <user@ip[:port]:destination>
           source:       local source file/folder.
           destination:  remote destination file/folder.
 ```
+
+```bash
+# in project dir
+sshync ./ <ssh-host>:~/<all-projects>
+# where <all-projects> - dir that contains your project dir
+```
