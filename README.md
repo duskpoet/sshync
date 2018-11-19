@@ -13,7 +13,7 @@ Default **rsync** options:
 * `z` – compress
 
 ```bash
-$ npm install sshync -g
+$ npm install duskpoet/sshync -g
 
 # Optional: Copy local SSH key to destination
 # OSX: $ brew install ssh-copy-id
