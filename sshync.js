@@ -24,6 +24,8 @@
         .shell('ssh')
         .flags('avuz')
         .delete()
+        .set('no-specials')
+        .set('no-devices')
         .source(source)
         .destination(args[1]),
       handle;
